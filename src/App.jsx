@@ -5,7 +5,7 @@ import MenuItem from './MenuItem';
 function App() {
   return (
     <div className="bio-container">
-      <h1>Hello, I'm [Your Name]</h1>
+      <h1>Hello, I'm Chloe</h1>
       <h2>Aspiring Full-Stack Developer</h2>
 
       <ProfileCard />
@@ -33,8 +33,7 @@ function App() {
       </div>
       
       <p>
-        Welcome to my very first React application! Today is Day 1 of my 
-        7-day bootcamp. I'm learning how to build modern web interfaces 
+        Welcome to my very first React application! I'm learning how to build modern web interfaces 
         and track my progress using Git.
       </p>
 
