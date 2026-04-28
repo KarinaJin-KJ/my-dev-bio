@@ -1,10 +1,13 @@
 import './App.css'
+import ProfileCard from './ProfileCard'
 
 function App() {
   return (
     <div className="bio-container">
       <h1>Hello, I'm [Your Name]</h1>
       <h2>Aspiring Full-Stack Developer</h2>
+
+      <ProfileCard />
       
       <p>
         Welcome to my very first React application! Today is Day 1 of my 
