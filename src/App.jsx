@@ -2,6 +2,7 @@ import './App.css'
 import ProfileCard from './ProfileCard'
 import MenuItem from './MenuItem';
 import Counter from './Counter';
+import TaskList from './TaskList';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <h2>Aspiring Full-Stack Developer</h2>
 
       <ProfileCard />
+
+      <TaskList />
 
       <div className="menu-section">
         <h2>My Favorite Foods</h2>
