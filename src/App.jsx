@@ -1,6 +1,7 @@
 import './App.css'
 import ProfileCard from './ProfileCard'
 import MenuItem from './MenuItem';
+import Counter from './Counter';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
           description="Sweet and earthy green tea dessert." 
         />
       </div>
+
+      <Counter />
       
       <p>
         Welcome to my very first React application! I'm learning how to build modern web interfaces 
