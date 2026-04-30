@@ -3,6 +3,7 @@ import ProfileCard from './ProfileCard'
 import MenuItem from './MenuItem';
 import Counter from './Counter';
 import TaskList from './TaskList';
+import GitHubProfile from './GitHubProfile'; 
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <h2>Aspiring Full-Stack Developer</h2>
 
       <ProfileCard />
+      <GitHubProfile/>
 
       <TaskList />
 
